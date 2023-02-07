@@ -13,11 +13,15 @@ It can be changed by modifying the Makefile (see how below).
 
 * Makefile
 ~SRC_ROOT~ dictates the root of the source directory.
+
 The default value of ~SRC_ROOT~ is ~src~.
+
 The same with ~HEADER_ROOT~.
+
 They recompile on any header or source file changing.
 
 ~OUT~ specifies the resulting executable name.
+
 ~CFLAGS~ specifies any C flags you may need.
 
 ~make [debug|analyze|release|clean|format|debugger]~ is self explanatory.
