@@ -11,7 +11,7 @@ Here is the project format:
 All the source files go in ~src~ and all the header files go in ~include~.
 It can be changed by modifying the Makefile (see how below).
 
-* Makefile
+** Makefile
 ~SRC_ROOT~ dictates the root of the source directory.
 
 The default value of ~SRC_ROOT~ is ~src~.
@@ -28,7 +28,7 @@ The same same applies with ~HEADER_ROOT~.
 
 It also generates a ~compile_flags.txt~ from ~CFLAGS~, ~INCLUDE~, and ~WARNINGS~.
 
-* Contributing
+** Contributing
 Contributions are welcome and I would like feedback if you have any.
 
 If you need anything or have feedback just open an issue or message me on [[https://t.me/kanye4prez2024][Telegram]].
