@@ -16,9 +16,7 @@ It can be changed by modifying the Makefile (see how below).
 
 The default value of ~SRC_ROOT~ is ~src~.
 
-The same with ~HEADER_ROOT~.
-
-They recompile on any header or source file changing.
+The same same applies with ~HEADER_ROOT~.
 
 
 ~OUT~ specifies the resulting executable name.
