@@ -1,0 +1,30 @@
+* My C Project Template
+Here is the project format:
+#+BEGIN_SRC text
+  .
+  ├── Makefile
+  ├── include
+  │   └── common.h
+  └── src
+      └── main.c
+#+END_SRC
+All the source files go in ~src~ and all the header files go in ~include~.
+It can be changed by modifying the Makefile (see how below).
+
+* Makefile
+~SRC_ROOT~ dictates the root of the source directory.
+The default value of ~SRC_ROOT~ is ~src~.
+The same with ~HEADER_ROOT~.
+They recompile on any header or source file changing.
+
+~OUT~ specifies the resulting executable name.
+~CFLAGS~ specifies any C flags you may need.
+
+~make [debug|analyze|release|clean|format|debugger]~ is self explanatory.
+
+It also generates a ~compile_flags.txt~ from ~CFLAGS~, ~INCLUDE~, and ~WARNINGS~.
+
+* Contributing
+Contributions are welcome and I would like feedback if you have any.
+
+If you need anything or have feedback just open an issue or message me on [[https://t.me/kanye4prez2024][Telegram]].
