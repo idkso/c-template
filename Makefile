@@ -35,7 +35,7 @@ $(OUT): $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIB)
 
 %.o: %.c $(HEADERS)
-	$(CC) -c -o $@ $(INCLUDE) $(CFLAGS) $<
+	$(CC) -c -o $@ $(INCLUDE) $(WARNINGS) $(CFLAGS) $<
 
 compile_flags.txt: Makefile
 	rm -f compile_flags.txt
